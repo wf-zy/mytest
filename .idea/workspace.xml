@@ -36,22 +36,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5631ca5c-25bf-4f0c-8878-df0135cca3de" name="Default Changelist" comment="1">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jdk.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/dt/TestDt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/exception/TestThrow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/interclass/Interclass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/interfaces/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/interfaces/B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/interfaces/C.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/lambda/TestInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/map/TestConcurrentHashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/runtime/TestRuntime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/runtime/TestRuntime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/sort/MpSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/sort/MpSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/string/TestSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/string/TestSplit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/test/Test10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/test/Test3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/unit/StringfilterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/unit/StringfilterUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +74,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="1kie5acfU60vBuMkmOwx7oVusAI" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -96,33 +86,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559793428197" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.23897912" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.25086308",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "a599d36c4c7a71ddcc1bc7259a15ac3a",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\ideawork\mytest\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSplit">
-    <configuration name="Jk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.thread.Jk" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test.Test" />
       <module name="mytest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.thread.*" />
+          <option name="PATTERN" value="test.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,19 +181,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Jk" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Application.ThreadPrint" />
       <item itemvalue="Application.TestThreadLocal" />
       <item itemvalue="Application.TestRuntime" />
@@ -202,11 +190,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestSplit" />
         <item itemvalue="Application.TestRuntime" />
         <item itemvalue="Application.TestThreadLocal" />
         <item itemvalue="Application.ThreadPrint" />
-        <item itemvalue="Application.Jk" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +221,7 @@
       <workItem from="1607070143242" duration="1606000" />
       <workItem from="1607081117127" duration="2247000" />
       <workItem from="1607328122021" duration="402000" />
+      <workItem from="1693194792219" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1606380092960</created>
@@ -267,53 +256,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1607070196984">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607070196984" />
-    <state width="1237" height="122" key="GridCell.Tab.0.bottom" timestamp="1607328523591">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607328523591" />
-    <state width="1237" height="122" key="GridCell.Tab.0.center" timestamp="1607328523591">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607328523591" />
-    <state width="1237" height="122" key="GridCell.Tab.0.left" timestamp="1607328523591">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607328523591" />
-    <state width="1237" height="122" key="GridCell.Tab.0.right" timestamp="1607328523591">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607328523591" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1606381699504">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606381699504" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1606381699504">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1606381699504" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1606381699504">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1606381699504" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1606381699504">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1606381699504" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1607070205474">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607070205474" />
   </component>
   <component name="masterDetails">
     <states>
