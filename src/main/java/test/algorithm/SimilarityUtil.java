@@ -1,7 +1,7 @@
 package test.algorithm;
 
 /**
- * ×Ö·û´®ÏàËÆ¶È
+ * ç›¸ä¼¼åº¦
  * @Author xiongyong
  * @Date 2021/8/30
  */
@@ -39,12 +39,12 @@ public class SimilarityUtil {
         Matrix = new int[n + 1][m + 1];
 
         for (i = 0; i <= n; i++) {
-            // ³õÊ¼»¯µÚÒ»ÁÐ
+            // ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
             Matrix[i][0] = i;
         }
 
         for (j = 0; j <= m; j++) {
-            // ³õÊ¼»¯µÚÒ»ÐÐ
+            // ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
             Matrix[0][j] = j;
         }
 

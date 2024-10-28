@@ -9,15 +9,15 @@ public class Jk {
 		
 		int total = (int)Runtime.getRuntime().totalMemory()/1024/1024;
 
-		System.out.println("�ڴ����� ��" + total + "mb");  
+		System.out.println("totalMemory" + total + "mb");
 
 		int free = (int)Runtime.getRuntime().freeMemory()/1024/1024;
 
-		System.out.println("�����ڴ��� �� " + free + "mb");  
+		System.out.println("freeMemory " + free + "mb");
 
 		int max = (int) (Runtime.getRuntime().maxMemory() /1024 / 1024);
 
-		System.out.println("����ڴ��� �� "  + max + "mb");  
+		System.out.println("maxMemory "  + max + "mb");
 		
 		System.out.println("==========================Memory=======================");
 
@@ -25,11 +25,11 @@ public class Jk {
 
 		    MemoryUsage usage = memoryMBean.getHeapMemoryUsage();   
 
-		    System.out.println("��ʼ�� Heap: " + (usage.getInit()/1024/1024) + "mb");   
+		    System.out.println("init Heap: " + (usage.getInit()/1024/1024) + "mb");
 
-		    System.out.println("���Heap: " + (usage.getMax()/1024/1024) + "mb");   
+		    System.out.println(" max Heap: " + (usage.getMax()/1024/1024) + "mb");
 
-		    System.out.println("�Ѿ�ʹ��Heap: " + (usage.getUsed()/1024/1024) + "mb");   
+		    System.out.println("use Heap: " + (usage.getUsed()/1024/1024) + "mb");
 
 		    System.out.println("Heap Memory Usage: " + memoryMBean.getHeapMemoryUsage());   
 

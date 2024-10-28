@@ -41,12 +41,13 @@ public class TestLock {
             try {
                 System.out.println("thread2 start=======");
 
-                Thread.sleep(1000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 System.out.println("thread2 err");
             } finally {
                 if (lock.isHeldByCurrentThread()) {
                     lock.unlock();
+                    System.out.println("thread2 unlock=======");
 
                 }
             }
@@ -57,6 +58,6 @@ public class TestLock {
         thread1.start();
         thread2.start();
 
-        Thread.sleep(100000);
+        System.out.println("==============end==============");
     }
 }

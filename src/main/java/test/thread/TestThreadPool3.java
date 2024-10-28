@@ -14,7 +14,7 @@ public class TestThreadPool3 {
 
 	
 	public static void main(String[] args) throws InterruptedException {
-		ExecutorService executor = Executors.newFixedThreadPool(1);
+		ExecutorService executor = Executors.newFixedThreadPool(3);
 
 		executor.submit(() -> {
 
