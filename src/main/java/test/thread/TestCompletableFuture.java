@@ -41,6 +41,7 @@ public class TestCompletableFuture {
         CompletableFuture<String> test5 = CompletableFuture.supplyAsync(() -> {
             try {
                 Thread.sleep(10000);
+                int a = 1/0;
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -56,14 +57,14 @@ public class TestCompletableFuture {
 
 
         // 串行并行操作不会返回结果，只决定执行方式
-        System.out.println("================并行====================");
+        System.out.println("================串行====================");
         // 串行
-        CompletableFuture<Object> objectCompletableFuture = CompletableFuture.anyOf(test4, test5);
+      /*  CompletableFuture<Object> objectCompletableFuture = CompletableFuture.anyOf(test4, test5);
         System.out.println(objectCompletableFuture.join());
         System.out.println(test4.join());
-        System.out.println(test5.join());
+        System.out.println(test5.join());*/
 
-        System.out.println("================串行====================");
+        System.out.println("================并行333====================");
         // 并行
         CompletableFuture<Void> voidCompletableFuture = CompletableFuture.allOf(test4, test5);
         voidCompletableFuture.join();

@@ -2,7 +2,6 @@ package test.serialize;
 
 import test.test.User;
 
-import javax.jws.soap.SOAPBinding;
 import java.io.*;
 
 /**

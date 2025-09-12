@@ -28,7 +28,7 @@ public class TestEcs {
 
             List<DescribeRegionsResponse.Region> regions = response.getRegions();
             regions.forEach(region -> {
-                System.out.println(region.getBizRegionId());
+                System.out.println(region.getRegionId());
             });
             System.out.println(new Gson().toJson(response));
         } catch (Exception e) {

@@ -1,7 +1,5 @@
 package test.queue;
 
-import com.google.common.collect.Lists;
-import sun.rmi.runtime.RuntimeUtil;
 
 import java.util.*;
 import java.util.concurrent.ExecutorService;
