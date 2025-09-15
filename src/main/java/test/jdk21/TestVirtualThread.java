@@ -12,12 +12,13 @@ public class TestVirtualThread {
 
     public static void main(String[] args) throws InterruptedException {
 
+        Integer time  =1000;
         System.out.println("===========================================");
-        CountDownLatch countDownLatch = new CountDownLatch(100000);
+        CountDownLatch countDownLatch = new CountDownLatch(time);
         StopWatch stopWatch = new StopWatch();
         stopWatch.start("task-1");
         ExecutorService executorService = Executors.newVirtualThreadPerTaskExecutor();
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < time; i++) {
             executorService.submit(() -> {
                 processTask("1");
                 countDownLatch.countDown();
@@ -28,10 +29,10 @@ public class TestVirtualThread {
         stopWatch.start("task-2");
         System.out.println("==================22=========================");
 
-        CountDownLatch countDownLatch2 = new CountDownLatch(100000);
+        CountDownLatch countDownLatch2 = new CountDownLatch(time);
 
-        ExecutorService executorService1 = Executors.newFixedThreadPool(5);
-        for (int i = 0; i < 100000; i++) {
+        ExecutorService executorService1 = Executors.newFixedThreadPool(10);
+        for (int i = 0; i < time; i++) {
             int finalI = i;
             executorService1.submit(() -> {
                 processTask("2");
@@ -45,6 +46,8 @@ public class TestVirtualThread {
 
         System.out.println( stopWatch.prettyPrint());
 
+        executorService.shutdown();
+        executorService1.shutdown();
     }
 
 

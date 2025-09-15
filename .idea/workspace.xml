@@ -36,16 +36,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5631ca5c-25bf-4f0c-8878-df0135cca3de" name="Default Changelist" comment="1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/algorithm/SimilarityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/algorithm/SimilarityUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/dockerjava/DockerClientTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/park/TestPackAndUnpack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/park/TestPackAndUnpack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/test/TestJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/test/TestJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/thread/Jk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/thread/Jk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/thread/TestLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/thread/TestLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/thread/TestThreadPool3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/thread/TestThreadPool3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/unit/StringfilterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/unit/StringfilterUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/jdk21/TestVirtualThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/jdk21/TestVirtualThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +106,7 @@
     "Application.TestPackAndUnpack.executor": "Run",
     "Application.TestQueue.executor": "Run",
     "Application.TestThreadPool3.executor": "Run",
+    "Application.TestVirtualThread.executor": "Run",
     "Application.ThreadPrint.executor": "Run",
     "Application.ThreadPrint2.executor": "Run",
     "Application.TreeSearch.executor": "Debug",
@@ -145,7 +138,7 @@
       <recent name="test.thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestPackAndUnpack">
+  <component name="RunManager" selected="Application.TestVirtualThread">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -153,19 +146,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileSizeConverUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.unit.FileSizeConverUtil" />
-      <module name="mytest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.unit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,8 +202,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestVirtualThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.jdk21.TestVirtualThread" />
+      <module name="mytest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.jdk21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.FileSizeConverUtil" />
+      <item itemvalue="Application.TestVirtualThread" />
       <item itemvalue="Application.JSonTransfer" />
       <item itemvalue="Application.StringfilterUtil" />
       <item itemvalue="Application.TestJson" />
@@ -231,11 +224,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestVirtualThread" />
         <item itemvalue="Application.TestPackAndUnpack" />
         <item itemvalue="Application.TestJson" />
         <item itemvalue="Application.JSonTransfer" />
         <item itemvalue="Application.StringfilterUtil" />
-        <item itemvalue="Application.FileSizeConverUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +263,7 @@
       <workItem from="1720772807099" duration="674000" />
       <workItem from="1722244140398" duration="68000" />
       <workItem from="1729754581352" duration="22767000" />
+      <workItem from="1757901445604" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1606380092960</created>
@@ -278,21 +272,19 @@
       <option name="project" value="LOCAL" />
       <updated>1606380092960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <option name="closed" value="true" />
+      <created>1757672638419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757672638419</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -329,6 +321,10 @@
         <PinnedItemInfo parentTag="java.util.regex.Pattern$5" memberName="lhs" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="masterDetails">
     <states>
